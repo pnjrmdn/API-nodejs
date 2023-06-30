@@ -24,6 +24,7 @@ app.get('/api/readDataUsers', (req, res) => {
         }
     })
 })
+//test
 
 app.get('/api/readUsers/:user_email', (req, res) => {
     const userEmail = req.params.user_email;
